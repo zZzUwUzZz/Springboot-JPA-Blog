@@ -16,8 +16,13 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/blog?serverTimezone=Asia/Seoul
+<<<<<<< HEAD
     username: root
     password: root
+=======
+    username: cos
+    password: cos1234
+>>>>>>> 9faf17c0aeefd54f9cb9ae04cc9c771a711e9868
   jpa:
     open-in-view: true
     hibernate:
@@ -31,4 +36,8 @@ spring:
   jackson:
     serialization:
       fail-on-empty-beans: false
+<<<<<<< HEAD
+=======
+      
+>>>>>>> 9faf17c0aeefd54f9cb9ae04cc9c771a711e9868
       
